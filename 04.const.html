@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 4 JavaScript</title>
+  </head>
+
+  <body>
+    <h1>Constantes JavaScript</h1>
+    <script>
+      /*   Clase Js #4. Constantes (const) 😪 */
+      const PI = 3.1416; //Can't declare an empty const.
+      console.log(PI); //Can't re-declare the asignation in a const.
+      const object = {
+        //Object{}= colección de atributos y valores
+        nombre: "Dylan",
+        edad: 19,
+      };
+
+      const colores = ["blanco", "azul", "celeste"];
+      // Array[]; colección de datos.(variable que almacena varias variables)
+      console.log(object);
+      console.log(colores);
+
+      object.correo = "dylan.facuy@gmail.com";
+      colores.push("anaranjado");
+      console.log(object);
+      console.log(colores);
+
+      //Si intentas cambiar variable const ("valores_primitivos" string, boolean, null) = error
+      //Si intentas cambiar variable const ("v_compuestos" object{}, array[]) ≠ error
+
+//************************************************************************************************************//
+
+    </script>
+  </body>
+</html>

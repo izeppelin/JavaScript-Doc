@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strings</title>
+  </head>
+  <body>
+    <h1>Template Strings</h1>
+    <script>
+      /*   Clase Js #5. Cadenas de texto (string, aka string) 😪 */
+      let nombre = "Dylan";
+      let apellido = "Facuy";
+      let saludo = new String("Esto es un saludo");
+      let comentario = "         pago n.  ";
+      console.log(nombre, apellido, saludo);
+      console.log(
+        nombre.length,
+        apellido.length,
+        saludo.length,
+        nombre.toUpperCase(), //metodos para poner mayus,
+        apellido.toLowerCase(), //minus variable indicada.
+        comentario.includes("pago", "pagó", "n"),
+        comentario,
+        comentario.trim(), //quita espacios en blanco o caracteres alrededor del txt.
+        comentario.split(""),
+        comentario.split(",")
+      );
+    </script>
+  </body>
+</html>
