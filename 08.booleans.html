@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 8 JavaScript</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clase 8 JavaScript</title>
-</head>
-
-<body>
-  <h1>Fundamentos JavaScript</h1>
-  <script>
+  <body>
+    <h1>Booleans</h1>
+    <script>
       let verdadero = true;
       let falso = false;
       let v = Boolean(true);
-    let f = Boolean(false);
-    console.log(verdadero, falso, v, f);
-    console.log(typeof verdadero, typeof falso);
-    console.log(Boolean(0));
-    console.log(Boolean(-7));
-    console.log(Boolean(""));
-    console.log(Boolean(" "));
-  
+      let f = Boolean(false);
+      console.log(verdadero, falso, v, f);
+      console.log(typeof verdadero, typeof falso);
 
+      console.log(Boolean(0));
+      console.log(Boolean(-7));
+      console.log(Boolean(""));
+      console.log(Boolean(" "));
 
-  </script>
+      // **** TRUTHY ****
+      // if (true)
+      // if ({})
+      // if ([])
+      // if (42)
+      // if ("foo")
+      // if (new Date())
+      // if (-42)
+      // if (3.14)
+      // if (-3.14)
+      // if (Infinity)
+      // if (-Infinity)
+
+      // **** FALSY ****
+      // if (false)
+      // if (null)
+      // if (undefined)
+      // if (0)
+      // if (-0)
+      // if (0n)
+      // if (NaN)
+      // if ("")
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 10 JavaScript</title>
+  </head>
+
+  <body>
+    <h1>Funciones</h1>
+    <script>
+      //Función declarada//
+      //bloque de código, autocontenido, puede definirse una vez y ejecutar en cualquier momento
+      //***************Types of function **********************
+      //anonymous function: función que no tiene nombre
+      //example:
+      (function () {}, () => {});
+
+      //*** Inner function *** : Función dentro de otra función
+
+      function addSquares(a, b) {
+        function square(x) {
+          return 3 * 13;
+        }
+        return square(a) + square(b);
+        console.log(addSquares , square)
+      }
+
+      //  function saludar(nombre = "Desconocido", edad = "0") {
+      //    console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años.`);
+      //  }
+      //  saludar("Dylan", 12);
+    </script>
+  </body>
+</html>
